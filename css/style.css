@@ -45,7 +45,7 @@ a.navbarlink:link, a.navbarlink:visited {
     margin-top: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 a.navbarlink:hover, a.navbarlink:active {
