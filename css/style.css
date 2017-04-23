@@ -1,0 +1,365 @@
+
+/*container is main body on all pages*/
+.container{
+  width: 90%;
+  background-color: white;
+  color: #4A4443;
+}
+
+/*being styles that appear on all pages - logo, nav bar*/
+.logo {
+  display: block;
+  background-color: white;
+  padding-bottom: 10px;
+  text-align: center;
+
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+.navitem {
+background-color: white;
+width: 15%;
+height: 50px;
+margin-top: auto;
+display: inline-block;
+text-align: center;
+    
+}
+
+a.navbarlink:link, a.navbarlink:visited {
+    display: inline-block;
+    width: 15%
+    font-weight: bold;
+    color: #383B8F;
+    background-color: white;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+a.navbarlink:hover, a.navbarlink:active {
+    color: #FA271B
+    font-weight:bold;
+}
+
+a.mainbody:link, a.mainbody:visited {
+color: #383B8F;
+text-decoration: none;
+
+}
+
+a.mainbody:hover, a.mainbody:active {
+    color: #FA271B
+}
+
+
+
+/*this is the company name plus photo*/
+.blurb {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    
+   
+    font-family: 'Meddon', cursive;
+    font-weight: heavy;
+    
+    background-image: url("../images/lotusthing.jpg");
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 600px;
+  
+    
+}
+
+#companyname {
+    text-align: center;
+    font-size: 40px;   
+}
+
+/*this is the large, red cursive section titles*/
+.sectionhead {
+    font-weight: 300;
+    color: #FA271B;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/*this is the gray bar between sections*/
+hr {
+    width: 40%;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+
+
+
+/*begin events page*/
+.eventmeta {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+margin-bottom: 40px;
+width: 600px;
+height: 300px;
+padding: 10px 0px;
+}
+
+.eventdescription {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #C3C3C7;
+}
+
+.eventtitle {
+    text-align: center;
+}
+
+
+.eventimage {
+  display: inline-block;
+  float: left
+  vertical-align: top;
+    
+  width: 300px;
+  height: 200px;
+  margin: 2px;
+  
+  border: 1px solid #4A4443;
+
+    
+}
+
+
+.eventtext {
+  display: inline-block; 
+
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+  padding-left: 10px;
+  float: right;
+  
+}
+
+/*end events*/
+
+
+
+
+/*begin classes*/
+
+.sectiondescription {
+    width: 80%;
+    display: block;
+    text-align: center;
+     margin-left: auto;
+    margin-right: auto;
+    
+}
+.classtable {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+th {
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    width: 200px;
+}
+
+td {
+    height: 80px;
+    //padding: 10px;
+    border-bottom: 1px solid #ddd;
+    width: 200px;
+}
+
+
+/*begin teachers page*/
+.teachers {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 800px;
+  height: 350px;
+  background-color: white;  
+}
+
+#profile1 {
+  display: inline-block; 
+  vertical-align: top;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 25px;
+  background-size: cover;
+  background-image: url("../images/teacher5.jpg");
+  border: 1px solid #4A4443;
+  padding-right: 4px;
+}
+
+#profile2 {
+  display: inline-block; 
+  vertical-align: top;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 25px;
+  background-size: cover;
+  background-image: url("../images/teacher.jpg");
+  border: 1px solid #4A4443;
+  padding-right: 4px;
+}
+
+#profile3 {
+  display: inline-block; 
+  vertical-align: top;
+  margin: auto;
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 25px;
+  background-size: cover;
+  border: 1px solid #4A4443;
+    background-image: url("../images/teacher2.jpg");
+}
+
+
+
+
+/*begin home page*/
+
+
+#quote {
+  display: block; 
+  vertical-align: top;
+  text-align: center;
+}
+
+.links {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 800px;
+  height: 350px;
+ // background-color: #C3C3C7;
+  //border: 3px solid #4A4443;
+    margin-top: 40px;
+  
+}
+
+
+
+#classeshome {
+  display: inline-block; 
+  vertical-align: top;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 25px;
+  background-size: cover;
+  background-image: url("../images/class.jpg");
+  border: 1px solid #4A4443;
+  padding-right: 4px;
+}
+
+#eventshome {
+  display: inline-block; 
+  vertical-align: top;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 25px;
+  background-size: cover;
+  background-image: url("../images/lecture.jpg");
+  border: 1px solid #4A4443;
+  padding-right: 4px;
+}
+
+#abouthome {
+  display: inline-block; 
+  vertical-align: top;
+  margin: auto;
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 25px;
+  background-size: cover;
+  background-image: url("../images/teacher.jpg");
+  border: 1px solid #4A4443;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*fonts*/
+
+h2 {
+  font-size: 20px;
+  color: #383B8F;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #383B8F;
+  font-size: 30px;
+  padding-top: 180px;
+  font-weight: heavy;
+  
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #4A4443;
+  text-align: center;
+    font-size: 20px;
+}
+
+
+
